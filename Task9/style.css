@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    line-height: 40px;
+}
+
+button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+img {
+      width: 300px;
+      transition: 0.3s;
+    }
+
+    .on {
+      filter: drop-shadow(0 0 30px yellow) brightness(1.1) saturate(2);
+    }
+
+    .off {
+      filter: brightness(0.3);
+    }
