@@ -1,0 +1,42 @@
+#clockContainer {
+    position: relative;
+    width: 40vw;          /* responsive width */
+    max-width: 450px;     /* desktop limit */
+    aspect-ratio: 1 / 1;  /* perfect circle */
+    margin: auto;
+    background: url(clock.png) no-repeat center;
+    background-size: contain;
+}
+
+/* Common styles for hands */
+#hour, #minute, #second {
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Hour Hand */
+#hour {
+    width: 2%;
+    height: 20%;
+    top: 30%;
+}
+
+/* Minute Hand */
+#minute {
+    width: 1.5%;
+    height: 28%;
+    top: 22%;
+    opacity: 0.8;
+}
+
+/* Second Hand */
+#second {
+    width: 1%;
+    height: 35%;
+    top: 15%;
+    background-color: red;
+}
