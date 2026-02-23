@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.product {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 8px;
+}

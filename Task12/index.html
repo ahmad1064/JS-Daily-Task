@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Products</h2>
+
+    <div class="products">
+      <div class="product">
+        <h4>Shirt</h4>
+        <p>$20</p>
+        <button onclick="addToCart('Shirt', 20)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <h4>Shoes</h4>
+        <p>$50</p>
+        <button onclick="addToCart('Shoes', 50)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <h4>Cap</h4>
+        <p>$15</p>
+        <button onclick="addToCart('Cap', 15)">Add to Cart</button>
+      </div>
+    </div>
+
+    <h2>Cart</h2>
+    <ul id="cartList"></ul>
+    <h3>Total: $<span id="total">0</span></h3>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
